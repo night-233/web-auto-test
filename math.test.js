@@ -26,9 +26,9 @@ it('should be test hello ciel', async () => {
 test('test null', () => {
   const n = null;
   expect(n).toBeNull();
-  expect(n).toBeDefined();
-  expect(n).toBeTruthy();
-  expect(n).toBeFalsy();
+  // expect(n).toBeDefined();
+  // expect(n).toBeTruthy();
+  // expect(n).toBeFalsy();
 })
 
 //单元测试， 集成测试；
